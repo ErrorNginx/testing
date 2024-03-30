@@ -1,0 +1,165 @@
+[2024-03-08T20:20:52.371+0000] {processor.py:161} INFO - Started process (PID=5190) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:20:52.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:20:52.374+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.373+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:20:52.683+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:20:52.926+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.925+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:mongodb_to_sql7
+[2024-03-08T20:20:52.940+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.939+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:mongodb_to_sql7
+[2024-03-08T20:20:52.949+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.949+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:mongodb_to_sql7
+[2024-03-08T20:20:52.951+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.950+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:20:52.965+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.964+0000] {dag.py:3069} INFO - Creating ORM DAG for mongodb_to_sql7
+[2024-03-08T20:20:52.978+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:20:52.977+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:20:52.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.628 seconds
+[2024-03-08T20:21:23.873+0000] {processor.py:161} INFO - Started process (PID=5217) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:23.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:21:23.877+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:23.876+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:24.147+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:24.167+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:24.167+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:21:24.187+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:24.187+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:21:24.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.334 seconds
+[2024-03-08T20:21:54.777+0000] {processor.py:161} INFO - Started process (PID=5244) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:54.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:21:54.781+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:54.780+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:55.059+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:21:55.079+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:55.078+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:21:55.099+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:21:55.099+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:21:55.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.343 seconds
+[2024-03-08T20:22:25.386+0000] {processor.py:161} INFO - Started process (PID=5272) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:25.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:22:25.392+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:25.391+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:25.670+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:25.690+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:25.690+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:22:25.808+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:25.808+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:22:25.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.442 seconds
+[2024-03-08T20:22:56.126+0000] {processor.py:161} INFO - Started process (PID=5299) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:56.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:22:56.135+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:56.134+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:56.414+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:22:56.433+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:56.433+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:22:56.453+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:22:56.453+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:22:56.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.355 seconds
+[2024-03-08T20:23:26.603+0000] {processor.py:161} INFO - Started process (PID=5326) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:26.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:23:26.609+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:26.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:26.893+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:26.917+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:26.916+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:23:27.054+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:27.054+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:23:27.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.475 seconds
+[2024-03-08T20:23:57.252+0000] {processor.py:161} INFO - Started process (PID=5353) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:57.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:23:57.256+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:57.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:57.544+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:23:57.563+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:57.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:23:57.583+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:23:57.583+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:23:57.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.351 seconds
+[2024-03-08T20:24:27.789+0000] {processor.py:161} INFO - Started process (PID=5380) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:27.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:24:27.793+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:27.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:28.084+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:28.105+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:28.105+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:24:28.224+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:28.223+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:24:28.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.453 seconds
+[2024-03-08T20:24:58.543+0000] {processor.py:161} INFO - Started process (PID=5407) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:58.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:24:58.551+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:58.551+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:58.826+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:24:58.846+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:58.845+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:24:58.865+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:24:58.865+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:24:58.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.347 seconds
+[2024-03-08T20:25:29.139+0000] {processor.py:161} INFO - Started process (PID=5434) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:25:29.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:25:29.149+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:25:29.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:25:29.443+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:25:29.463+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:25:29.463+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:25:29.577+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:25:29.577+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:25:29.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.463 seconds
+[2024-03-08T20:25:59.850+0000] {processor.py:161} INFO - Started process (PID=5461) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:25:59.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:25:59.855+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:25:59.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:26:00.214+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:26:00.239+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:26:00.239+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:26:00.264+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:26:00.263+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:26:00.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.431 seconds
+[2024-03-08T20:26:30.797+0000] {processor.py:161} INFO - Started process (PID=5488) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:26:30.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:26:30.803+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:26:30.802+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:26:31.072+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:26:31.091+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:26:31.091+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:26:31.205+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:26:31.205+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:26:31.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.432 seconds
+[2024-03-08T20:27:01.361+0000] {processor.py:161} INFO - Started process (PID=5515) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:01.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:27:01.368+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:01.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:01.747+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:01.764+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:01.763+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:27:01.780+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:01.780+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:27:01.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.446 seconds
+[2024-03-08T20:27:32.162+0000] {processor.py:161} INFO - Started process (PID=5542) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:32.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:27:32.167+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:32.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:32.591+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:27:32.610+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:32.609+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:27:32.636+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:27:32.635+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:27:32.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.497 seconds
+[2024-03-08T20:28:03.122+0000] {processor.py:161} INFO - Started process (PID=5569) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:03.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:28:03.132+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:03.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:03.496+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:03.512+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:03.512+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:28:03.529+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:03.529+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:28:03.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.431 seconds
+[2024-03-08T20:28:33.604+0000] {processor.py:161} INFO - Started process (PID=5596) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:33.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:28:33.612+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:33.611+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:33.984+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:28:34.000+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:34.000+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:28:34.018+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:28:34.018+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:28:34.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.439 seconds
+[2024-03-08T20:29:04.222+0000] {processor.py:161} INFO - Started process (PID=5623) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:04.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:29:04.227+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:04.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:04.625+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:04.642+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:04.642+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:29:04.659+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:04.659+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:29:04.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.456 seconds
+[2024-03-08T20:29:34.934+0000] {processor.py:161} INFO - Started process (PID=5650) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:34.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:29:34.943+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:34.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:35.333+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:29:35.350+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:35.350+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:29:35.371+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:29:35.371+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:29:35.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.464 seconds
+[2024-03-08T20:30:05.432+0000] {processor.py:161} INFO - Started process (PID=5677) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:05.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:30:05.437+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:05.437+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:05.804+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:05.820+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:05.820+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:30:05.837+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:05.837+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:30:05.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.423 seconds
+[2024-03-08T20:30:36.606+0000] {processor.py:161} INFO - Started process (PID=5704) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:36.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:30:36.616+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:36.615+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:37.003+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:30:37.021+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:37.021+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:30:37.041+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:30:37.041+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:30:37.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.465 seconds
+[2024-03-08T20:31:07.758+0000] {processor.py:161} INFO - Started process (PID=5731) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:07.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:31:07.762+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:07.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:08.122+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:08.139+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:08.139+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:31:08.156+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:08.156+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:31:08.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.414 seconds
+[2024-03-08T20:31:38.451+0000] {processor.py:161} INFO - Started process (PID=5758) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:38.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:31:38.455+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:38.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:38.830+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:31:38.847+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:38.847+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:31:38.866+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:31:38.865+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:31:38.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.431 seconds
+[2024-03-08T20:32:09.129+0000] {processor.py:161} INFO - Started process (PID=5785) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:32:09.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py for tasks to queue
+[2024-03-08T20:32:09.137+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:32:09.136+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:32:09.521+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql7' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py
+[2024-03-08T20:32:09.538+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:32:09.537+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-08T20:32:09.555+0000] {logging_mixin.py:188} INFO - [2024-03-08T20:32:09.555+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql7 to 2024-03-07 00:00:00+00:00, run_after=2024-03-08 00:00:00+00:00
+[2024-03-08T20:32:09.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_tujuh.py took 0.452 seconds

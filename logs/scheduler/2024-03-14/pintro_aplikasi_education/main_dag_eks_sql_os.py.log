@@ -1,0 +1,7 @@
+[2024-03-14T17:16:12.762+0000] {processor.py:161} INFO - Started process (PID=1749) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_eks_sql_os.py
+[2024-03-14T17:16:12.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_eks_sql_os.py for tasks to queue
+[2024-03-14T17:16:12.764+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.764+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_eks_sql_os.py
+[2024-03-14T17:16:13.146+0000] {processor.py:840} INFO - DAG(s) 'aaexample_2' retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_eks_sql_os.py
+[2024-03-14T17:16:13.228+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:13.228+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T17:16:13.237+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:13.237+0000] {dag.py:3834} INFO - Setting next_dagrun for aaexample_2 to None, run_after=None
+[2024-03-14T17:16:13.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_eks_sql_os.py took 0.498 seconds

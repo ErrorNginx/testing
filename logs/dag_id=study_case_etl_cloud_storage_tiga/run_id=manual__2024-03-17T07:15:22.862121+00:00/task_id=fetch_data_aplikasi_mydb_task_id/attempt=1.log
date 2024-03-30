@@ -1,0 +1,36 @@
+[2024-03-17T07:15:26.144+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage_tiga.fetch_data_aplikasi_mydb_task_id manual__2024-03-17T07:15:22.862121+00:00 [queued]>
+[2024-03-17T07:15:26.156+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage_tiga.fetch_data_aplikasi_mydb_task_id manual__2024-03-17T07:15:22.862121+00:00 [queued]>
+[2024-03-17T07:15:26.157+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-17T07:15:26.176+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_aplikasi_mydb_task_id> on 2024-03-17 07:15:22.862121+00:00
+[2024-03-17T07:15:26.185+0000] {standard_task_runner.py:60} INFO - Started process 7067 to run task
+[2024-03-17T07:15:26.191+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_cloud_storage_tiga', 'fetch_data_aplikasi_mydb_task_id', 'manual__2024-03-17T07:15:22.862121+00:00', '--job-id', '979', '--raw', '--subdir', 'DAGS_FOLDER/etl_day_bigquery/study_case_etl_cloud_bigquery.py', '--cfg-path', '/tmp/tmph9s2zq0o']
+[2024-03-17T07:15:26.197+0000] {standard_task_runner.py:88} INFO - Job 979: Subtask fetch_data_aplikasi_mydb_task_id
+[2024-03-17T07:15:26.295+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_cloud_storage_tiga.fetch_data_aplikasi_mydb_task_id manual__2024-03-17T07:15:22.862121+00:00 [running]> on host 1d5b76b26ba5
+[2024-03-17T07:15:26.409+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_cloud_storage_tiga' AIRFLOW_CTX_TASK_ID='fetch_data_aplikasi_mydb_task_id' AIRFLOW_CTX_EXECUTION_DATE='2024-03-17T07:15:22.862121+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-17T07:15:22.862121+00:00'
+[2024-03-17T07:15:28.972+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:28,972 INFO sqlalchemy.engine.Engine SELECT DATABASE()
+[2024-03-17T07:15:28.972+0000] {base.py:1863} INFO - SELECT DATABASE()
+[2024-03-17T07:15:28.973+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:28,973 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-17T07:15:28.973+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-17T07:15:29.857+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:29,857 INFO sqlalchemy.engine.Engine SELECT @@sql_mode
+[2024-03-17T07:15:29.857+0000] {base.py:1863} INFO - SELECT @@sql_mode
+[2024-03-17T07:15:29.858+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:29,858 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-17T07:15:29.858+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-17T07:15:30.297+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:30,297 INFO sqlalchemy.engine.Engine SELECT @@lower_case_table_names
+[2024-03-17T07:15:30.297+0000] {base.py:1863} INFO - SELECT @@lower_case_table_names
+[2024-03-17T07:15:30.298+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:30,298 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-17T07:15:30.298+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-17T07:15:30.958+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:30,958 INFO sqlalchemy.engine.Engine 
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-17T07:15:30.958+0000] {base.py:1863} INFO - 
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-17T07:15:30.960+0000] {logging_mixin.py:188} INFO - 2024-03-17 07:15:30,960 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-17T07:15:30.960+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-17T07:15:31.407+0000] {logging_mixin.py:188} INFO - File already exists.
+[2024-03-17T07:15:31.408+0000] {python.py:202} INFO - Done. Returned value was: /opt/***/data/fetch_data_aplikasi_mydb_task_id_2024-03-17.csv
+[2024-03-17T07:15:31.434+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_etl_cloud_storage_tiga, task_id=fetch_data_aplikasi_mydb_task_id, execution_date=20240317T071522, start_date=20240317T071526, end_date=20240317T071531
+[2024-03-17T07:15:31.493+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-17T07:15:31.525+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

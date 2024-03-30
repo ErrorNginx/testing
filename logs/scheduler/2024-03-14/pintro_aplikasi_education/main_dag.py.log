@@ -1,0 +1,28 @@
+[2024-03-14T17:16:12.357+0000] {processor.py:161} INFO - Started process (PID=1745) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:12.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag.py for tasks to queue
+[2024-03-14T17:16:12.359+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.359+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:12.686+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.685+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag.py", line 9, in <module>
+    from postgres_connection import get_postgres_connection
+ModuleNotFoundError: No module named 'postgres_connection'
+[2024-03-14T17:16:12.687+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:12.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag.py took 0.347 seconds
+[2024-03-14T17:16:43.300+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:43.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag.py for tasks to queue
+[2024-03-14T17:16:43.303+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:43.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:43.626+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:43.625+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag.py", line 9, in <module>
+    from postgres_connection import get_postgres_connection
+ModuleNotFoundError: No module named 'postgres_connection'
+[2024-03-14T17:16:43.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag.py
+[2024-03-14T17:16:43.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag.py took 0.341 seconds

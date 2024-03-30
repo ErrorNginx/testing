@@ -1,0 +1,7 @@
+[2024-03-14T19:56:22.007+0000] {processor.py:161} INFO - Started process (PID=14247) to work on /opt/airflow/dags/restrore_mongo/main_dag_sql_delapan copy.py
+[2024-03-14T19:56:22.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/restrore_mongo/main_dag_sql_delapan copy.py for tasks to queue
+[2024-03-14T19:56:22.009+0000] {logging_mixin.py:188} INFO - [2024-03-14T19:56:22.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/restrore_mongo/main_dag_sql_delapan copy.py
+[2024-03-14T19:56:22.277+0000] {processor.py:840} INFO - DAG(s) 'mongodb_to_sql8' retrieved from /opt/airflow/dags/restrore_mongo/main_dag_sql_delapan copy.py
+[2024-03-14T19:56:22.451+0000] {logging_mixin.py:188} INFO - [2024-03-14T19:56:22.451+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T19:56:22.469+0000] {logging_mixin.py:188} INFO - [2024-03-14T19:56:22.469+0000] {dag.py:3834} INFO - Setting next_dagrun for mongodb_to_sql8 to 2024-03-14 00:00:00+00:00, run_after=2024-03-15 00:00:00+00:00
+[2024-03-14T19:56:22.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/restrore_mongo/main_dag_sql_delapan copy.py took 0.481 seconds

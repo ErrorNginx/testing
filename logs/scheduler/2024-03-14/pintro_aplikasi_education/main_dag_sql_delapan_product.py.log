@@ -1,0 +1,153 @@
+[2024-03-14T17:16:11.772+0000] {processor.py:161} INFO - Started process (PID=1739) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:11.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:16:11.773+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:11.773+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:11.779+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:11.778+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:16:11.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:11.807+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.039 seconds
+[2024-03-14T17:16:42.404+0000] {processor.py:161} INFO - Started process (PID=1792) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:42.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:16:42.406+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.406+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:42.410+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.409+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:16:42.410+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:16:42.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.024 seconds
+[2024-03-14T17:17:12.739+0000] {processor.py:161} INFO - Started process (PID=1839) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:12.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:17:12.741+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:17:12.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:12.746+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:17:12.746+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:17:12.748+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:12.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.032 seconds
+[2024-03-14T17:17:43.034+0000] {processor.py:161} INFO - Started process (PID=1877) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:43.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:17:43.037+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:17:43.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:43.043+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:17:43.042+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:17:43.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:17:43.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.032 seconds
+[2024-03-14T17:18:13.850+0000] {processor.py:161} INFO - Started process (PID=1916) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:13.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:18:13.853+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:18:13.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:13.859+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:18:13.859+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:18:13.860+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:13.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.034 seconds
+[2024-03-14T17:18:44.555+0000] {processor.py:161} INFO - Started process (PID=1955) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:44.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:18:44.557+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:18:44.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:44.563+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:18:44.563+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:18:44.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:18:44.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.029 seconds
+[2024-03-14T17:19:15.120+0000] {processor.py:161} INFO - Started process (PID=1994) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:15.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:19:15.123+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:19:15.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:15.129+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:19:15.128+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:19:15.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:15.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.032 seconds
+[2024-03-14T17:19:46.091+0000] {processor.py:161} INFO - Started process (PID=2032) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:46.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:19:46.094+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:19:46.094+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:46.100+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:19:46.100+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:19:46.101+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:19:46.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.031 seconds
+[2024-03-14T17:20:16.544+0000] {processor.py:161} INFO - Started process (PID=2071) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:20:16.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py for tasks to queue
+[2024-03-14T17:20:16.547+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:20:16.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:20:16.551+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:20:16.550+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py", line 103
+    schedule_interval=None,
+    ^
+SyntaxError: keyword argument repeated
+[2024-03-14T17:20:16.551+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py
+[2024-03-14T17:20:16.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_delapan_product.py took 0.025 seconds

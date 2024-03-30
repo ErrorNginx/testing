@@ -1,0 +1,46 @@
+[2024-03-16T06:05:01.131+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_1.fetch_data_task scheduled__2024-03-15T12:00:00+00:00 [queued]>
+[2024-03-16T06:05:01.145+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_1.fetch_data_task scheduled__2024-03-15T12:00:00+00:00 [queued]>
+[2024-03-16T06:05:01.146+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-03-16T06:05:01.191+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_task> on 2024-03-15 12:00:00+00:00
+[2024-03-16T06:05:01.198+0000] {standard_task_runner.py:60} INFO - Started process 60 to run task
+[2024-03-16T06:05:01.211+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_1', 'fetch_data_task', 'scheduled__2024-03-15T12:00:00+00:00', '--job-id', '463', '--raw', '--subdir', 'DAGS_FOLDER/pintro_aplikasi_education/study_case1.py', '--cfg-path', '/tmp/tmpqkz86bzn']
+[2024-03-16T06:05:01.218+0000] {standard_task_runner.py:88} INFO - Job 463: Subtask fetch_data_task
+[2024-03-16T06:05:01.421+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_1.fetch_data_task scheduled__2024-03-15T12:00:00+00:00 [running]> on host 72d5c878da28
+[2024-03-16T06:05:01.668+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_1' AIRFLOW_CTX_TASK_ID='fetch_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-15T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-15T12:00:00+00:00'
+[2024-03-16T06:05:01.676+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:315: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2024-03-16T06:05:04.791+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:04,791 INFO sqlalchemy.engine.Engine SELECT DATABASE()
+[2024-03-16T06:05:04.791+0000] {base.py:1863} INFO - SELECT DATABASE()
+[2024-03-16T06:05:04.792+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:04,792 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T06:05:04.792+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T06:05:05.701+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:05,701 INFO sqlalchemy.engine.Engine SELECT @@sql_mode
+[2024-03-16T06:05:05.701+0000] {base.py:1863} INFO - SELECT @@sql_mode
+[2024-03-16T06:05:05.702+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:05,702 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T06:05:05.702+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T06:05:06.147+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:06,147 INFO sqlalchemy.engine.Engine SELECT @@lower_case_table_names
+[2024-03-16T06:05:06.147+0000] {base.py:1863} INFO - SELECT @@lower_case_table_names
+[2024-03-16T06:05:06.148+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:06,147 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T06:05:06.147+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T06:05:06.818+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:06,818 INFO sqlalchemy.engine.Engine 
+
+
+   SELECT 
+    *, 
+    CONVERT_TZ(NOW(), 'UTC', '+07:00') as execution_at
+FROM test.user
+WHERE updated_at BETWEEN NOW() - INTERVAL 7 MINUTE AND NOW()
+[2024-03-16T06:05:06.818+0000] {base.py:1863} INFO - 
+
+
+   SELECT 
+    *, 
+    CONVERT_TZ(NOW(), 'UTC', '+07:00') as execution_at
+FROM test.user
+WHERE updated_at BETWEEN NOW() - INTERVAL 7 MINUTE AND NOW()
+[2024-03-16T06:05:06.820+0000] {logging_mixin.py:188} INFO - 2024-03-16 06:05:06,820 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T06:05:06.820+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T06:05:07.273+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-16T06:05:07.282+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_1, task_id=fetch_data_task, execution_date=20240315T120000, start_date=20240316T060501, end_date=20240316T060507
+[2024-03-16T06:05:07.314+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-16T06:05:07.342+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

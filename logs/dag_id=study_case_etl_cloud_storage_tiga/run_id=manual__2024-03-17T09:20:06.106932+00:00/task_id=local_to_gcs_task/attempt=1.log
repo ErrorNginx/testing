@@ -1,0 +1,13 @@
+[2024-03-17T09:20:17.231+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage_tiga.local_to_gcs_task manual__2024-03-17T09:20:06.106932+00:00 [queued]>
+[2024-03-17T09:20:17.239+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage_tiga.local_to_gcs_task manual__2024-03-17T09:20:06.106932+00:00 [queued]>
+[2024-03-17T09:20:17.240+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-17T09:20:17.250+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2024-03-17 09:20:06.106932+00:00
+[2024-03-17T09:20:17.256+0000] {standard_task_runner.py:60} INFO - Started process 9195 to run task
+[2024-03-17T09:20:17.259+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_cloud_storage_tiga', 'local_to_gcs_task', 'manual__2024-03-17T09:20:06.106932+00:00', '--job-id', '1049', '--raw', '--subdir', 'DAGS_FOLDER/etl_day_bigquery/study_case_etl_cloud_bigquery.py', '--cfg-path', '/tmp/tmpgbm4ge9k']
+[2024-03-17T09:20:17.261+0000] {standard_task_runner.py:88} INFO - Job 1049: Subtask local_to_gcs_task
+[2024-03-17T09:20:17.298+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_cloud_storage_tiga.local_to_gcs_task manual__2024-03-17T09:20:06.106932+00:00 [running]> on host 1d5b76b26ba5
+[2024-03-17T09:20:17.372+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_cloud_storage_tiga' AIRFLOW_CTX_TASK_ID='local_to_gcs_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-17T09:20:06.106932+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-17T09:20:06.106932+00:00'
+[2024-03-17T09:20:19.142+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-17T09:20:19.151+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_etl_cloud_storage_tiga, task_id=local_to_gcs_task, execution_date=20240317T092006, start_date=20240317T092017, end_date=20240317T092019
+[2024-03-17T09:20:19.201+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-17T09:20:19.222+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

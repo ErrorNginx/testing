@@ -1,0 +1,80 @@
+[2024-03-16T17:00:01.531+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [queued]>
+[2024-03-16T17:00:01.542+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [queued]>
+[2024-03-16T17:00:01.542+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-16T17:00:01.561+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_task> on 2024-03-16 16:00:00+00:00
+[2024-03-16T17:00:01.575+0000] {standard_task_runner.py:60} INFO - Started process 8855 to run task
+[2024-03-16T17:00:01.580+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_cloud_storage', 'fetch_data_task', 'scheduled__2024-03-16T16:00:00+00:00', '--job-id', '770', '--raw', '--subdir', 'DAGS_FOLDER/etl_day_bigquery/study_case_etl_cloud_storage.py', '--cfg-path', '/tmp/tmph9b8pden']
+[2024-03-16T17:00:01.583+0000] {standard_task_runner.py:88} INFO - Job 770: Subtask fetch_data_task
+[2024-03-16T17:00:01.642+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [running]> on host 1d5b76b26ba5
+[2024-03-16T17:00:01.768+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_cloud_storage' AIRFLOW_CTX_TASK_ID='fetch_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-16T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-16T16:00:00+00:00'
+[2024-03-16T17:00:05.623+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:05,623 INFO sqlalchemy.engine.Engine SELECT DATABASE()
+[2024-03-16T17:00:05.623+0000] {base.py:1863} INFO - SELECT DATABASE()
+[2024-03-16T17:00:05.626+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:05,626 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T17:00:05.626+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T17:00:06.510+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:06,510 INFO sqlalchemy.engine.Engine SELECT @@sql_mode
+[2024-03-16T17:00:06.510+0000] {base.py:1863} INFO - SELECT @@sql_mode
+[2024-03-16T17:00:06.513+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:06,513 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T17:00:06.513+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T17:00:06.958+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:06,957 INFO sqlalchemy.engine.Engine SELECT @@lower_case_table_names
+[2024-03-16T17:00:06.957+0000] {base.py:1863} INFO - SELECT @@lower_case_table_names
+[2024-03-16T17:00:06.961+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:06,960 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T17:00:06.960+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T17:00:07.626+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:07,625 INFO sqlalchemy.engine.Engine 
+
+
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-16T17:00:07.625+0000] {base.py:1863} INFO - 
+
+
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-16T17:00:07.628+0000] {logging_mixin.py:188} INFO - 2024-03-16 17:00:07,628 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-16T17:00:07.628+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-16T17:00:08.077+0000] {logging_mixin.py:188} INFO - File already exists.
+[2024-03-16T17:00:08.079+0000] {python.py:202} INFO - Done. Returned value was: /opt/***/data/aplikasi_table_['{ ds }.parquet']
+[2024-03-16T17:00:08.098+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_etl_cloud_storage, task_id=fetch_data_task, execution_date=20240316T160000, start_date=20240316T170001, end_date=20240316T170008
+[2024-03-16T17:00:08.119+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-16T17:00:08.143+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-03-22T17:28:38.444+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [queued]>
+[2024-03-22T17:28:38.457+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [queued]>
+[2024-03-22T17:28:38.458+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-22T17:28:38.470+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_task> on 2024-03-16 16:00:00+00:00
+[2024-03-22T17:28:38.476+0000] {standard_task_runner.py:60} INFO - Started process 460 to run task
+[2024-03-22T17:28:38.480+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_cloud_storage', 'fetch_data_task', 'scheduled__2024-03-16T16:00:00+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/etl_day_bigquery/study_case_etl_cloud_storage.py', '--cfg-path', '/tmp/tmp7wq5uokm']
+[2024-03-22T17:28:38.486+0000] {standard_task_runner.py:88} INFO - Job 51: Subtask fetch_data_task
+[2024-03-22T17:28:38.534+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_cloud_storage.fetch_data_task scheduled__2024-03-16T16:00:00+00:00 [running]> on host eb8b31fafb1e
+[2024-03-22T17:28:38.741+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_cloud_storage' AIRFLOW_CTX_TASK_ID='fetch_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-16T16:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-16T16:00:00+00:00'
+[2024-03-22T17:28:41.443+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:41,443 INFO sqlalchemy.engine.Engine SELECT DATABASE()
+[2024-03-22T17:28:41.443+0000] {base.py:1863} INFO - SELECT DATABASE()
+[2024-03-22T17:28:41.445+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:41,444 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-22T17:28:41.444+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-22T17:28:42.328+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:42,328 INFO sqlalchemy.engine.Engine SELECT @@sql_mode
+[2024-03-22T17:28:42.328+0000] {base.py:1863} INFO - SELECT @@sql_mode
+[2024-03-22T17:28:42.333+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:42,333 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-22T17:28:42.333+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-22T17:28:42.780+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:42,780 INFO sqlalchemy.engine.Engine SELECT @@lower_case_table_names
+[2024-03-22T17:28:42.780+0000] {base.py:1863} INFO - SELECT @@lower_case_table_names
+[2024-03-22T17:28:42.784+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:42,784 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-22T17:28:42.784+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-22T17:28:43.446+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:43,445 INFO sqlalchemy.engine.Engine 
+
+
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-22T17:28:43.445+0000] {base.py:1863} INFO - 
+
+
+  SELECT 
+    *
+FROM databasename.mytable
+[2024-03-22T17:28:43.448+0000] {logging_mixin.py:188} INFO - 2024-03-22 17:28:43,448 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-22T17:28:43.448+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-22T17:28:43.898+0000] {logging_mixin.py:188} INFO - File already exists.
+[2024-03-22T17:28:43.899+0000] {python.py:202} INFO - Done. Returned value was: /opt/***/data/aplikasi_table_['{ ds }.parquet']
+[2024-03-22T17:28:43.922+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_etl_cloud_storage, task_id=fetch_data_task, execution_date=20240316T160000, start_date=20240322T172838, end_date=20240322T172843
+[2024-03-22T17:28:43.947+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-22T17:28:43.960+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

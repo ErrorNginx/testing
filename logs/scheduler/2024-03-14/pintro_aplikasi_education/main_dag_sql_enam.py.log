@@ -1,0 +1,14 @@
+[2024-03-14T17:16:11.831+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:11.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py for tasks to queue
+[2024-03-14T17:16:11.833+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:11.832+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:12.203+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:12.285+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.285+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T17:16:12.294+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.294+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-14T17:16:12.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py took 0.487 seconds
+[2024-03-14T17:16:42.448+0000] {processor.py:161} INFO - Started process (PID=1794) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:42.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py for tasks to queue
+[2024-03-14T17:16:42.450+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:42.813+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py
+[2024-03-14T17:16:42.830+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.830+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T17:16:42.840+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.840+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-14T17:16:42.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_enam.py took 0.415 seconds

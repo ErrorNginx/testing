@@ -1,0 +1,61 @@
+[2024-03-22T19:11:41.518+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_first_dag.bash_task_2 manual__2024-03-22T18:50:19.723727+00:00 [queued]>
+[2024-03-22T19:11:41.527+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_first_dag.bash_task_2 manual__2024-03-22T18:50:19.723727+00:00 [queued]>
+[2024-03-22T19:11:41.527+0000] {taskinstance.py:2193} INFO - Starting attempt 5 of 11
+[2024-03-22T19:11:41.537+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): bash_task_2> on 2024-03-22 18:50:19.723727+00:00
+[2024-03-22T19:11:41.540+0000] {standard_task_runner.py:60} INFO - Started process 1428 to run task
+[2024-03-22T19:11:41.543+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'my_first_dag', 'bash_task_2', 'manual__2024-03-22T18:50:19.723727+00:00', '--job-id', '256', '--raw', '--subdir', 'DAGS_FOLDER/running_dbt_core/running_dbt_core.py', '--cfg-path', '/tmp/tmp9m7rivez']
+[2024-03-22T19:11:41.544+0000] {standard_task_runner.py:88} INFO - Job 256: Subtask bash_task_2
+[2024-03-22T19:11:41.579+0000] {task_command.py:423} INFO - Running <TaskInstance: my_first_dag.bash_task_2 manual__2024-03-22T18:50:19.723727+00:00 [running]> on host 428086c4ef09
+[2024-03-22T19:11:41.642+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='proton' AIRFLOW_CTX_DAG_ID='my_first_dag' AIRFLOW_CTX_TASK_ID='bash_task_2' AIRFLOW_CTX_EXECUTION_DATE='2024-03-22T18:50:19.723727+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-22T18:50:19.723727+00:00'
+[2024-03-22T19:11:41.644+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-22T19:11:41.645+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/credit_card_dwh && dbt run --profiles-dir .']
+[2024-03-22T19:11:41.653+0000] {subprocess.py:86} INFO - Output:
+[2024-03-22T19:11:44.208+0000] {subprocess.py:93} INFO - [0m19:11:44  Running with dbt=1.7.10
+[2024-03-22T19:11:45.193+0000] {subprocess.py:93} INFO - [0m19:11:45  Registered adapter: bigquery=1.7.6
+[2024-03-22T19:11:45.363+0000] {subprocess.py:93} INFO - [0m19:11:45  Found 15 models, 5 seeds, 20 tests, 1 source, 0 exposures, 0 metrics, 870 macros, 0 groups, 0 semantic models
+[2024-03-22T19:11:45.367+0000] {subprocess.py:93} INFO - [0m19:11:45
+[2024-03-22T19:11:46.924+0000] {subprocess.py:93} INFO - [0m19:11:46  Concurrency: 4 threads (target='dev')
+[2024-03-22T19:11:46.925+0000] {subprocess.py:93} INFO - [0m19:11:46
+[2024-03-22T19:11:46.935+0000] {subprocess.py:93} INFO - [0m19:11:46  1 of 15 START sql view model final_project.stg__credit_card .................... [RUN]
+[2024-03-22T19:11:47.802+0000] {subprocess.py:93} INFO - [0m19:11:47  1 of 15 ERROR creating sql view model final_project.stg__credit_card ........... [[31mERROR[0m in 0.86s]
+[2024-03-22T19:11:47.815+0000] {subprocess.py:93} INFO - [0m19:11:47  2 of 15 SKIP relation final_project.dim__EDUCATION ............................. [[33mSKIP[0m]
+[2024-03-22T19:11:47.816+0000] {subprocess.py:93} INFO - [0m19:11:47  3 of 15 SKIP relation final_project.dim__HOUSING ............................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.817+0000] {subprocess.py:93} INFO - [0m19:11:47  4 of 15 SKIP relation final_project.dim__INCOME ................................ [[33mSKIP[0m]
+[2024-03-22T19:11:47.818+0000] {subprocess.py:93} INFO - [0m19:11:47  5 of 15 SKIP relation final_project.dim__JOB ................................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.826+0000] {subprocess.py:93} INFO - [0m19:11:47  6 of 15 SKIP relation final_project.dim__MARITAL ............................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.829+0000] {subprocess.py:93} INFO - [0m19:11:47  7 of 15 SKIP relation final_project.fact__tables ............................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.836+0000] {subprocess.py:93} INFO - [0m19:11:47  8 of 15 SKIP relation final_project.clustered__ASSET ........................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.837+0000] {subprocess.py:93} INFO - [0m19:11:47  9 of 15 SKIP relation final_project.clustered__ASSET_CAR ....................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.838+0000] {subprocess.py:93} INFO - [0m19:11:47  10 of 15 SKIP relation final_project.clustered__EDUCATION ...................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.839+0000] {subprocess.py:93} INFO - [0m19:11:47  11 of 15 SKIP relation final_project.clustered__INCOME ......................... [[33mSKIP[0m]
+[2024-03-22T19:11:47.849+0000] {subprocess.py:93} INFO - [0m19:11:47  12 of 15 SKIP relation final_project.clustered__JOB ............................ [[33mSKIP[0m]
+[2024-03-22T19:11:47.851+0000] {subprocess.py:93} INFO - [0m19:11:47  13 of 15 SKIP relation final_project.clustered__MARITAL ........................ [[33mSKIP[0m]
+[2024-03-22T19:11:47.852+0000] {subprocess.py:93} INFO - [0m19:11:47  14 of 15 SKIP relation final_project.nested__FRAUD ............................. [[33mSKIP[0m]
+[2024-03-22T19:11:47.853+0000] {subprocess.py:93} INFO - [0m19:11:47  15 of 15 SKIP relation final_project.partitioned__dates ........................ [[33mSKIP[0m]
+[2024-03-22T19:11:47.861+0000] {subprocess.py:93} INFO - [0m19:11:47
+[2024-03-22T19:11:47.862+0000] {subprocess.py:93} INFO - [0m19:11:47  Finished running 6 view models, 9 table models in 0 hours 0 minutes and 2.49 seconds (2.49s).
+[2024-03-22T19:11:47.886+0000] {subprocess.py:93} INFO - [0m19:11:47
+[2024-03-22T19:11:47.887+0000] {subprocess.py:93} INFO - [0m19:11:47  [31mCompleted with 1 error and 0 warnings:[0m
+[2024-03-22T19:11:47.888+0000] {subprocess.py:93} INFO - [0m19:11:47
+[2024-03-22T19:11:47.889+0000] {subprocess.py:93} INFO - [0m19:11:47    Runtime Error in model stg__credit_card (models/staging/stg__credit_card.sql)
+[2024-03-22T19:11:47.889+0000] {subprocess.py:93} INFO -   404 Not found: Table forward-entity-411314:final_project.raw_credit_card was not found in location US; reason: notFound, message: Not found: Table forward-entity-411314:final_project.raw_credit_card was not found in location US
+[2024-03-22T19:11:47.890+0000] {subprocess.py:93} INFO - 
+[2024-03-22T19:11:47.890+0000] {subprocess.py:93} INFO -   Location: US
+[2024-03-22T19:11:47.891+0000] {subprocess.py:93} INFO -   Job ID: a92b60a6-995d-437f-8ab7-66c17a7dd199
+[2024-03-22T19:11:47.891+0000] {subprocess.py:93} INFO - 
+[2024-03-22T19:11:47.892+0000] {subprocess.py:93} INFO - [0m19:11:47
+[2024-03-22T19:11:47.892+0000] {subprocess.py:93} INFO - [0m19:11:47  Done. PASS=0 WARN=0 ERROR=1 SKIP=14 TOTAL=15
+[2024-03-22T19:11:50.105+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-03-22T19:11:50.114+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-03-22T19:11:50.117+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=my_first_dag, task_id=bash_task_2, execution_date=20240322T185019, start_date=20240322T191141, end_date=20240322T191150
+[2024-03-22T19:11:50.126+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 256 for task bash_task_2 (Bash command failed. The command returned a non-zero exit code 1.; 1428)
+[2024-03-22T19:11:50.164+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-22T19:11:50.176+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

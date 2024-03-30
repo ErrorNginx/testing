@@ -1,0 +1,65 @@
+[2024-03-12T18:15:37.563+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_tujuh.fetch_data_task manual__2024-03-12T18:15:36.475616+00:00 [queued]>
+[2024-03-12T18:15:37.570+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_tujuh.fetch_data_task manual__2024-03-12T18:15:36.475616+00:00 [queued]>
+[2024-03-12T18:15:37.571+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-12T18:15:37.581+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_data_task> on 2024-03-12 18:15:36.475616+00:00
+[2024-03-12T18:15:37.586+0000] {standard_task_runner.py:60} INFO - Started process 457 to run task
+[2024-03-12T18:15:37.589+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'example_tujuh', 'fetch_data_task', 'manual__2024-03-12T18:15:36.475616+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/other_ingestion_postgre/main_dag_sql_tujuh.py', '--cfg-path', '/tmp/tmpepkf3l0q']
+[2024-03-12T18:15:37.592+0000] {standard_task_runner.py:88} INFO - Job 50: Subtask fetch_data_task
+[2024-03-12T18:15:37.627+0000] {task_command.py:423} INFO - Running <TaskInstance: example_tujuh.fetch_data_task manual__2024-03-12T18:15:36.475616+00:00 [running]> on host 31e68e31498e
+[2024-03-12T18:15:37.689+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='example_tujuh' AIRFLOW_CTX_TASK_ID='fetch_data_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-12T18:15:36.475616+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-12T18:15:36.475616+00:00'
+[2024-03-12T18:15:37.691+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:315: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2024-03-12T18:15:40.283+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:40,283 INFO sqlalchemy.engine.Engine SELECT DATABASE()
+[2024-03-12T18:15:40.283+0000] {base.py:1863} INFO - SELECT DATABASE()
+[2024-03-12T18:15:40.284+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:40,284 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-12T18:15:40.284+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-12T18:15:41.171+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:41,171 INFO sqlalchemy.engine.Engine SELECT @@sql_mode
+[2024-03-12T18:15:41.171+0000] {base.py:1863} INFO - SELECT @@sql_mode
+[2024-03-12T18:15:41.172+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:41,172 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-12T18:15:41.172+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-12T18:15:41.613+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:41,613 INFO sqlalchemy.engine.Engine SELECT @@lower_case_table_names
+[2024-03-12T18:15:41.613+0000] {base.py:1863} INFO - SELECT @@lower_case_table_names
+[2024-03-12T18:15:41.614+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:41,614 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-12T18:15:41.614+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-12T18:15:42.276+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:42,276 INFO sqlalchemy.engine.Engine SELECT 
+    id_transaksi, 
+    tanggal_transaksi, 
+    id_pelanggan, 
+    metode_pembayaran, 
+    barang_jasa_dibeli, 
+    status_pembayaran, 
+    created_at, 
+    updated_at, 
+    CONVERT_TZ(NOW(), 'UTC', '+07:00') as execution_at
+FROM test.transaksi ;
+-- WHERE updated_at BETWEEN CONVERT_TZ(NOW(), 'UTC', '+07:00') - INTERVAL 1 HOUR AND CONVERT_TZ(NOW(), 'UTC', '+07:00');
+[2024-03-12T18:15:42.276+0000] {base.py:1863} INFO - SELECT 
+    id_transaksi, 
+    tanggal_transaksi, 
+    id_pelanggan, 
+    metode_pembayaran, 
+    barang_jasa_dibeli, 
+    status_pembayaran, 
+    created_at, 
+    updated_at, 
+    CONVERT_TZ(NOW(), 'UTC', '+07:00') as execution_at
+FROM test.transaksi ;
+-- WHERE updated_at BETWEEN CONVERT_TZ(NOW(), 'UTC', '+07:00') - INTERVAL 1 HOUR AND CONVERT_TZ(NOW(), 'UTC', '+07:00');
+[2024-03-12T18:15:42.277+0000] {logging_mixin.py:188} INFO - 2024-03-12 18:15:42,277 INFO sqlalchemy.engine.Engine [raw sql] {}
+[2024-03-12T18:15:42.277+0000] {base.py:1868} INFO - [raw sql] {}
+[2024-03-12T18:15:42.520+0000] {base.py:791} ERROR - Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 763, in _finalize_fairy
+    fairy._reset(pool, transaction_was_reset)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 1038, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 683, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/airflow/.local/lib/python3.8/site-packages/mysql/connector/connection_cext.py", line 517, in rollback
+    self._cmysql.rollback()
+_mysql_connector.MySQLInterfaceError: Commands out of sync; you can't run this command now
+[2024-03-12T18:15:42.525+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-12T18:15:42.532+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=example_tujuh, task_id=fetch_data_task, execution_date=20240312T181536, start_date=20240312T181537, end_date=20240312T181542
+[2024-03-12T18:15:42.565+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-12T18:15:42.584+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

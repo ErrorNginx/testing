@@ -1,0 +1,50 @@
+[2024-03-30T16:42:47.509+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_all_pipeline.bash_task_1 manual__2024-03-30T16:42:22.737411+00:00 [queued]>
+[2024-03-30T16:42:47.518+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_all_pipeline.bash_task_1 manual__2024-03-30T16:42:22.737411+00:00 [queued]>
+[2024-03-30T16:42:47.519+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-30T16:42:47.531+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): bash_task_1> on 2024-03-30 16:42:22.737411+00:00
+[2024-03-30T16:42:47.538+0000] {standard_task_runner.py:60} INFO - Started process 7625 to run task
+[2024-03-30T16:42:47.542+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_all_pipeline', 'bash_task_1', 'manual__2024-03-30T16:42:22.737411+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/running_dbt_core/study_case_etl_all_pipeline.py', '--cfg-path', '/tmp/tmpw8q1o5qm']
+[2024-03-30T16:42:47.544+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask bash_task_1
+[2024-03-30T16:42:47.582+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_all_pipeline.bash_task_1 manual__2024-03-30T16:42:22.737411+00:00 [running]> on host 8e1e687a7cdb
+[2024-03-30T16:42:47.642+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_all_pipeline' AIRFLOW_CTX_TASK_ID='bash_task_1' AIRFLOW_CTX_EXECUTION_DATE='2024-03-30T16:42:22.737411+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-30T16:42:22.737411+00:00'
+[2024-03-30T16:42:47.644+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-30T16:42:47.645+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/credit_card_dwh && dbt deps && dbt seed --profiles-dir .']
+[2024-03-30T16:42:47.655+0000] {subprocess.py:86} INFO - Output:
+[2024-03-30T16:42:49.911+0000] {subprocess.py:93} INFO - [0m16:42:49  Running with dbt=1.7.11
+[2024-03-30T16:42:52.084+0000] {subprocess.py:93} INFO - [0m16:42:52  Installing dbt-labs/dbt_utils
+[2024-03-30T16:42:52.808+0000] {subprocess.py:93} INFO - [0m16:42:52  Installed from version 0.8.0
+[2024-03-30T16:42:52.809+0000] {subprocess.py:93} INFO - [0m16:42:52  Updated version available: 1.1.1
+[2024-03-30T16:42:52.812+0000] {subprocess.py:93} INFO - [0m16:42:52  Installing calogica/dbt_expectations
+[2024-03-30T16:42:56.102+0000] {subprocess.py:93} INFO - [0m16:42:56  Installed from version 0.10.3
+[2024-03-30T16:42:56.103+0000] {subprocess.py:93} INFO - [0m16:42:56  Up to date!
+[2024-03-30T16:42:56.107+0000] {subprocess.py:93} INFO - [0m16:42:56  Installing calogica/dbt_date
+[2024-03-30T16:42:56.654+0000] {subprocess.py:93} INFO - [0m16:42:56  Installed from version 0.10.0
+[2024-03-30T16:42:56.654+0000] {subprocess.py:93} INFO - [0m16:42:56  Up to date!
+[2024-03-30T16:42:56.657+0000] {subprocess.py:93} INFO - [0m16:42:56
+[2024-03-30T16:42:56.658+0000] {subprocess.py:93} INFO - [0m16:42:56  Updates available for packages: ['dbt-labs/dbt_utils']
+[2024-03-30T16:42:56.659+0000] {subprocess.py:93} INFO - Update your versions in packages.yml, then run dbt deps
+[2024-03-30T16:43:01.724+0000] {subprocess.py:93} INFO - [0m16:43:01  Running with dbt=1.7.11
+[2024-03-30T16:43:02.769+0000] {subprocess.py:93} INFO - [0m16:43:02  Registered adapter: bigquery=1.7.7
+[2024-03-30T16:43:02.831+0000] {subprocess.py:93} INFO - [0m16:43:02  Unable to do partial parsing because of a version mismatch
+[2024-03-30T16:43:05.007+0000] {subprocess.py:93} INFO - [0m16:43:05  [[33mWARNING[0m]: Found patch for macro "decode_EDUCATION" which was not found
+[2024-03-30T16:43:05.010+0000] {subprocess.py:93} INFO - [0m16:43:05  [[33mWARNING[0m]: Found patch for macro "decode_HOUSING" which was not found
+[2024-03-30T16:43:05.012+0000] {subprocess.py:93} INFO - [0m16:43:05  [[33mWARNING[0m]: Found patch for macro "decode_INCOME" which was not found
+[2024-03-30T16:43:05.014+0000] {subprocess.py:93} INFO - [0m16:43:05  [[33mWARNING[0m]: Found patch for macro "decode_JOB" which was not found
+[2024-03-30T16:43:05.017+0000] {subprocess.py:93} INFO - [0m16:43:05  [[33mWARNING[0m]: Found patch for macro "decode_MARITAL" which was not found
+[2024-03-30T16:43:05.018+0000] {subprocess.py:93} INFO - [0m16:43:05  Encountered an error:
+[2024-03-30T16:43:05.018+0000] {subprocess.py:93} INFO - Compilation Error
+[2024-03-30T16:43:05.019+0000] {subprocess.py:93} INFO -   Model 'model.credit_card_dwh.stg__credit_card' (models/staging/stg__credit_card.sql) depends on a source named 'agusmahari_data_lake.raw_credit_card' which was not found
+[2024-03-30T16:43:07.046+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-03-30T16:43:07.058+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-03-30T16:43:07.062+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=study_case_etl_all_pipeline, task_id=bash_task_1, execution_date=20240330T164222, start_date=20240330T164247, end_date=20240330T164307
+[2024-03-30T16:43:07.074+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 84 for task bash_task_1 (Bash command failed. The command returned a non-zero exit code 2.; 7625)
+[2024-03-30T16:43:07.085+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-30T16:43:07.105+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

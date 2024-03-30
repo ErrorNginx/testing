@@ -1,0 +1,17 @@
+[2024-03-15T07:10:15.885+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case1_restore.remove_csv_task manual__2024-03-15T07:10:01.629733+00:00 [queued]>
+[2024-03-15T07:10:15.897+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case1_restore.remove_csv_task manual__2024-03-15T07:10:01.629733+00:00 [queued]>
+[2024-03-15T07:10:15.898+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-15T07:10:15.909+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): remove_csv_task> on 2024-03-15 07:10:01.629733+00:00
+[2024-03-15T07:10:15.914+0000] {standard_task_runner.py:60} INFO - Started process 839 to run task
+[2024-03-15T07:10:15.918+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case1_restore', 'remove_csv_task', 'manual__2024-03-15T07:10:01.629733+00:00', '--job-id', '258', '--raw', '--subdir', 'DAGS_FOLDER/restrore_mongo/study_case1_restore.py', '--cfg-path', '/tmp/tmp48bubme4']
+[2024-03-15T07:10:15.922+0000] {standard_task_runner.py:88} INFO - Job 258: Subtask remove_csv_task
+[2024-03-15T07:10:15.968+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case1_restore.remove_csv_task manual__2024-03-15T07:10:01.629733+00:00 [running]> on host f293363f8e27
+[2024-03-15T07:10:16.057+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case1_restore' AIRFLOW_CTX_TASK_ID='remove_csv_task' AIRFLOW_CTX_EXECUTION_DATE='2024-03-15T07:10:01.629733+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-15T07:10:01.629733+00:00'
+[2024-03-15T07:10:16.059+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:315: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2024-03-15T07:10:16.067+0000] {logging_mixin.py:188} INFO - CSV file /opt/***/data/aplikasi_table_2024-03-15-7-10-01.csv removed successfully.
+[2024-03-15T07:10:16.068+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-03-15T07:10:16.078+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case1_restore, task_id=remove_csv_task, execution_date=20240315T071001, start_date=20240315T071015, end_date=20240315T071016
+[2024-03-15T07:10:16.136+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-15T07:10:16.153+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

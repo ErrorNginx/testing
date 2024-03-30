@@ -1,0 +1,14 @@
+[2024-03-23T05:40:00.386+0000] {processor.py:161} INFO - Started process (PID=58) to work on /opt/airflow/dags/other_ingestion_postgre/dymmy.py
+[2024-03-23T05:40:00.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/dymmy.py for tasks to queue
+[2024-03-23T05:40:00.394+0000] {logging_mixin.py:188} INFO - [2024-03-23T05:40:00.393+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/dymmy.py
+[2024-03-23T05:40:00.419+0000] {logging_mixin.py:188} INFO - [2024-03-23T05:40:00.415+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/other_ingestion_postgre/dymmy.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/other_ingestion_postgre/dymmy.py", line 12, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2024-03-23T05:40:00.421+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/other_ingestion_postgre/dymmy.py
+[2024-03-23T05:40:00.525+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/dymmy.py took 0.157 seconds

@@ -1,0 +1,30 @@
+[2024-03-30T22:48:17.730+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: study_case_etl_all_pipeline.bash_task_2 manual__2024-03-30T22:47:53.474034+00:00 [queued]>
+[2024-03-30T22:48:17.738+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: study_case_etl_all_pipeline.bash_task_2 manual__2024-03-30T22:47:53.474034+00:00 [queued]>
+[2024-03-30T22:48:17.739+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-03-30T22:48:17.751+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): bash_task_2> on 2024-03-30 22:47:53.474034+00:00
+[2024-03-30T22:48:17.755+0000] {standard_task_runner.py:60} INFO - Started process 5793 to run task
+[2024-03-30T22:48:17.759+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'study_case_etl_all_pipeline', 'bash_task_2', 'manual__2024-03-30T22:47:53.474034+00:00', '--job-id', '224', '--raw', '--subdir', 'DAGS_FOLDER/running_dbt_core/study_case_etl_all_pipeline.py', '--cfg-path', '/tmp/tmp_e1s3nzw']
+[2024-03-30T22:48:17.761+0000] {standard_task_runner.py:88} INFO - Job 224: Subtask bash_task_2
+[2024-03-30T22:48:17.798+0000] {task_command.py:423} INFO - Running <TaskInstance: study_case_etl_all_pipeline.bash_task_2 manual__2024-03-30T22:47:53.474034+00:00 [running]> on host f5156ab87ac1
+[2024-03-30T22:48:17.858+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Agus mahari' AIRFLOW_CTX_DAG_ID='study_case_etl_all_pipeline' AIRFLOW_CTX_TASK_ID='bash_task_2' AIRFLOW_CTX_EXECUTION_DATE='2024-03-30T22:47:53.474034+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-30T22:47:53.474034+00:00'
+[2024-03-30T22:48:17.860+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-30T22:48:17.861+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/***/dbt/credit_card_dwh && dbt run --profiles-dir .']
+[2024-03-30T22:48:17.870+0000] {subprocess.py:86} INFO - Output:
+[2024-03-30T22:48:20.234+0000] {subprocess.py:93} INFO - [0m22:48:20  Running with dbt=1.7.11
+[2024-03-30T22:48:21.157+0000] {subprocess.py:93} INFO - [0m22:48:21  Registered adapter: bigquery=1.7.7
+[2024-03-30T22:48:21.314+0000] {subprocess.py:93} INFO - [0m22:48:21  Found 1 model, 2 tests, 1 source, 0 exposures, 0 metrics, 907 macros, 0 groups, 0 semantic models
+[2024-03-30T22:48:21.317+0000] {subprocess.py:93} INFO - [0m22:48:21
+[2024-03-30T22:48:22.681+0000] {subprocess.py:93} INFO - [0m22:48:22  Concurrency: 4 threads (target='dev')
+[2024-03-30T22:48:22.684+0000] {subprocess.py:93} INFO - [0m22:48:22
+[2024-03-30T22:48:22.707+0000] {subprocess.py:93} INFO - [0m22:48:22  1 of 1 START sql incremental model test_location.stg__credit_card .............. [RUN]
+[2024-03-30T22:48:26.808+0000] {subprocess.py:93} INFO - [0m22:48:26  1 of 1 OK created sql incremental model test_location.stg__credit_card ......... [[32mMERGE (55.5k rows, 12.1 MiB processed)[0m in 4.10s]
+[2024-03-30T22:48:26.815+0000] {subprocess.py:93} INFO - [0m22:48:26
+[2024-03-30T22:48:26.815+0000] {subprocess.py:93} INFO - [0m22:48:26  Finished running 1 incremental model in 0 hours 0 minutes and 5.50 seconds (5.50s).
+[2024-03-30T22:48:26.837+0000] {subprocess.py:93} INFO - [0m22:48:26
+[2024-03-30T22:48:26.838+0000] {subprocess.py:93} INFO - [0m22:48:26  [32mCompleted successfully[0m
+[2024-03-30T22:48:26.839+0000] {subprocess.py:93} INFO - [0m22:48:26
+[2024-03-30T22:48:26.840+0000] {subprocess.py:93} INFO - [0m22:48:26  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2024-03-30T22:48:34.143+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-30T22:48:34.161+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=study_case_etl_all_pipeline, task_id=bash_task_2, execution_date=20240330T224753, start_date=20240330T224817, end_date=20240330T224834
+[2024-03-30T22:48:34.188+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-30T22:48:34.207+0000] {taskinstance.py:3309} INFO - 3 downstream tasks scheduled from follow-on schedule check

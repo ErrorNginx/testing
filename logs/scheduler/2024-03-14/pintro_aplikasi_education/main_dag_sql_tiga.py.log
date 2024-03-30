@@ -1,0 +1,14 @@
+[2024-03-14T17:16:12.340+0000] {processor.py:161} INFO - Started process (PID=1744) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:12.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py for tasks to queue
+[2024-03-14T17:16:12.342+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:12.748+0000] {processor.py:840} INFO - DAG(s) 'aaexample_3' retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:12.834+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.833+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T17:16:12.843+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:12.843+0000] {dag.py:3834} INFO - Setting next_dagrun for aaexample_3 to None, run_after=None
+[2024-03-14T17:16:12.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py took 0.525 seconds
+[2024-03-14T17:16:42.880+0000] {processor.py:161} INFO - Started process (PID=1797) to work on /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:42.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py for tasks to queue
+[2024-03-14T17:16:42.882+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:42.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:43.238+0000] {processor.py:840} INFO - DAG(s) 'aaexample_3' retrieved from /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py
+[2024-03-14T17:16:43.256+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:43.255+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-14T17:16:43.265+0000] {logging_mixin.py:188} INFO - [2024-03-14T17:16:43.265+0000] {dag.py:3834} INFO - Setting next_dagrun for aaexample_3 to None, run_after=None
+[2024-03-14T17:16:43.279+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pintro_aplikasi_education/main_dag_sql_tiga.py took 0.402 seconds

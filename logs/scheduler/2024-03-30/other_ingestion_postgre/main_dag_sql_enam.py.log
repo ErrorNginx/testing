@@ -1,0 +1,718 @@
+[2024-03-30T07:37:35.099+0000] {processor.py:161} INFO - Started process (PID=47) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T07:37:35.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T07:37:35.103+0000] {logging_mixin.py:188} INFO - [2024-03-30T07:37:35.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T07:37:35.184+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T07:37:35.204+0000] {logging_mixin.py:188} INFO - [2024-03-30T07:37:35.203+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T07:37:35.218+0000] {logging_mixin.py:188} INFO - [2024-03-30T07:37:35.218+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T07:37:35.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T08:47:00.980+0000] {processor.py:161} INFO - Started process (PID=49) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:00.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:47:00.984+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:00.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:01.081+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:01.383+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.382+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_enam
+[2024-03-30T08:47:01.394+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.393+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:example_enam
+[2024-03-30T08:47:01.402+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.402+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_enam
+[2024-03-30T08:47:01.403+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.403+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:47:01.414+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.414+0000] {dag.py:3069} INFO - Creating ORM DAG for example_enam
+[2024-03-30T08:47:01.415+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:01.414+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:47:01.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.454 seconds
+[2024-03-30T08:47:31.812+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:31.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:47:31.816+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:31.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:31.899+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:47:31.921+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:31.920+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:47:32.084+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:47:32.084+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:47:32.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.294 seconds
+[2024-03-30T08:48:02.725+0000] {processor.py:161} INFO - Started process (PID=115) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:02.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:48:02.729+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:02.729+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:02.815+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:02.841+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:02.840+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:48:02.856+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:02.856+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:48:02.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.152 seconds
+[2024-03-30T08:48:33.960+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:33.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:48:33.963+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:33.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:34.039+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:48:34.059+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:34.059+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:48:34.071+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:48:34.071+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:48:34.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.256 seconds
+[2024-03-30T08:49:04.751+0000] {processor.py:161} INFO - Started process (PID=181) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:04.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:49:04.754+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:04.754+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:04.826+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:04.983+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:04.983+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:49:04.994+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:04.993+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:49:05.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.264 seconds
+[2024-03-30T08:49:35.794+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:35.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:49:35.797+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:35.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:35.878+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:49:35.897+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:35.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:49:35.913+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:49:35.912+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:49:35.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.146 seconds
+[2024-03-30T08:50:06.529+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:06.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:50:06.532+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:06.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:06.605+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:06.624+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:06.624+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:50:06.761+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:06.760+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:50:06.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.250 seconds
+[2024-03-30T08:50:36.961+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:36.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:50:36.964+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:36.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:37.175+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:50:37.192+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:37.192+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:50:37.202+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:50:37.202+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:50:37.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.262 seconds
+[2024-03-30T08:51:08.145+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:08.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:51:08.148+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:08.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:08.374+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:08.391+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:08.391+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:51:08.401+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:08.400+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:51:08.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.277 seconds
+[2024-03-30T08:51:38.743+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:38.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:51:38.746+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:38.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:38.945+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:51:38.963+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:38.963+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:51:38.973+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:51:38.973+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:51:38.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.247 seconds
+[2024-03-30T08:52:09.023+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:09.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:52:09.026+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:09.026+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:09.229+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:09.248+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:09.247+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:52:09.257+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:09.257+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:52:09.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.253 seconds
+[2024-03-30T08:52:40.482+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:40.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:52:40.485+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:40.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:40.692+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:52:40.711+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:40.711+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:52:40.721+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:52:40.721+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:52:40.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.257 seconds
+[2024-03-30T08:53:10.938+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:10.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:53:10.941+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:10.941+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:11.145+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:11.163+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:11.163+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:53:11.174+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:11.174+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:53:11.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.255 seconds
+[2024-03-30T08:53:42.192+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:42.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:53:42.195+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:42.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:42.427+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:53:42.452+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:42.451+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:53:42.465+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:53:42.464+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:53:42.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.298 seconds
+[2024-03-30T08:54:12.637+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:12.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:54:12.640+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:12.639+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:12.867+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:12.884+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:12.884+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:54:12.895+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:12.894+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:54:12.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.278 seconds
+[2024-03-30T08:54:43.263+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:43.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:54:43.267+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:43.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:43.357+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:54:43.377+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:43.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:54:43.388+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:54:43.388+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:54:43.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.147 seconds
+[2024-03-30T08:55:13.491+0000] {processor.py:161} INFO - Started process (PID=578) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:13.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:55:13.494+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:13.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:13.577+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:13.598+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:13.597+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:55:13.614+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:13.613+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:55:13.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.146 seconds
+[2024-03-30T08:55:43.878+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:43.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:55:43.882+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:43.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:43.966+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:55:43.989+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:43.988+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:55:44.002+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:55:44.002+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:55:44.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.147 seconds
+[2024-03-30T08:56:14.239+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:14.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:56:14.242+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:14.242+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:14.317+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:14.338+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:14.338+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:56:14.353+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:14.352+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:56:14.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.143 seconds
+[2024-03-30T08:56:44.784+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:44.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:56:44.787+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:44.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:44.870+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:56:44.892+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:44.891+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:56:44.905+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:56:44.904+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:56:44.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T08:57:15.073+0000] {processor.py:161} INFO - Started process (PID=714) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:15.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:57:15.077+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:15.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:15.158+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:15.181+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:15.181+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:57:15.195+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:15.194+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:57:15.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.144 seconds
+[2024-03-30T08:57:45.684+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:45.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:57:45.687+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:45.686+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:45.786+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:57:45.812+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:45.811+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:57:45.826+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:57:45.826+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:57:45.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.165 seconds
+[2024-03-30T08:58:16.007+0000] {processor.py:161} INFO - Started process (PID=779) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:16.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:58:16.011+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:16.011+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:16.127+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:16.154+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:16.154+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:58:16.168+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:16.167+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:58:16.189+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.186 seconds
+[2024-03-30T08:58:46.711+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:46.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:58:46.714+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:46.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:46.802+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:58:46.828+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:46.828+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:58:46.844+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:58:46.843+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:58:46.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.158 seconds
+[2024-03-30T08:59:17.160+0000] {processor.py:161} INFO - Started process (PID=845) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:17.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:59:17.163+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:17.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:17.251+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:17.274+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:17.273+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:59:17.287+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:17.287+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:59:17.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.152 seconds
+[2024-03-30T08:59:47.657+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:47.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T08:59:47.661+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:47.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:47.742+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T08:59:47.763+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:47.763+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T08:59:47.775+0000] {logging_mixin.py:188} INFO - [2024-03-30T08:59:47.775+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T08:59:47.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T09:00:18.032+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:18.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:00:18.036+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:18.035+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:18.142+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:18.163+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:18.163+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:00:18.175+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:18.175+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:00:18.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.167 seconds
+[2024-03-30T09:00:48.331+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:48.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:00:48.338+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:48.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:48.438+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:00:48.458+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:48.457+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:00:48.471+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:00:48.471+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:00:48.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.167 seconds
+[2024-03-30T09:01:18.660+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:18.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:01:18.663+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:18.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:18.752+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:18.779+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:18.779+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:01:18.792+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:18.792+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:01:18.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.155 seconds
+[2024-03-30T09:01:48.944+0000] {processor.py:161} INFO - Started process (PID=1015) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:48.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:01:48.948+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:48.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:49.036+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:01:49.056+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:49.056+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:01:49.068+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:01:49.068+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:01:49.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.146 seconds
+[2024-03-30T09:02:19.373+0000] {processor.py:161} INFO - Started process (PID=1048) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:19.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:02:19.377+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:19.377+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:19.453+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:19.478+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:19.477+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:02:19.493+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:19.492+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:02:19.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.142 seconds
+[2024-03-30T09:02:49.642+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:49.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:02:49.645+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:49.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:49.731+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:02:49.753+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:49.752+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:02:49.767+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:02:49.767+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:02:49.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.174 seconds
+[2024-03-30T09:03:20.190+0000] {processor.py:161} INFO - Started process (PID=1113) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:20.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:03:20.194+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:20.194+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:20.309+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:20.334+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:20.333+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:03:20.350+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:20.350+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:03:20.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.186 seconds
+[2024-03-30T09:03:50.579+0000] {processor.py:161} INFO - Started process (PID=1146) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:50.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:03:50.582+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:50.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:50.661+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:03:50.683+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:50.682+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:03:50.697+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:03:50.696+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:03:50.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.139 seconds
+[2024-03-30T09:04:21.001+0000] {processor.py:161} INFO - Started process (PID=1179) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:21.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:04:21.004+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:21.004+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:21.110+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:21.136+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:21.136+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:04:21.150+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:21.150+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:04:21.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.171 seconds
+[2024-03-30T09:04:51.314+0000] {processor.py:161} INFO - Started process (PID=1212) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:51.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:04:51.317+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:51.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:51.397+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:04:51.417+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:51.417+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:04:51.430+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:04:51.429+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:04:51.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T09:05:21.480+0000] {processor.py:161} INFO - Started process (PID=1245) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:21.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:05:21.484+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:21.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:21.592+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:21.617+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:21.616+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:05:21.630+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:21.630+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:05:21.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.174 seconds
+[2024-03-30T09:05:51.769+0000] {processor.py:161} INFO - Started process (PID=1278) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:51.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:05:51.772+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:51.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:51.846+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:05:51.866+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:51.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:05:51.877+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:05:51.877+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:05:51.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.127 seconds
+[2024-03-30T09:06:21.942+0000] {processor.py:161} INFO - Started process (PID=1310) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:21.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:06:21.945+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:21.944+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:22.019+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:22.040+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:22.039+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:06:22.052+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:22.052+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:06:22.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.129 seconds
+[2024-03-30T09:06:52.212+0000] {processor.py:161} INFO - Started process (PID=1343) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:52.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:06:52.215+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:52.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:52.292+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:06:52.313+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:52.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:06:52.326+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:06:52.326+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:06:52.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.135 seconds
+[2024-03-30T09:07:22.455+0000] {processor.py:161} INFO - Started process (PID=1376) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:22.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:07:22.458+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:22.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:22.536+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:22.555+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:22.554+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:07:22.567+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:22.567+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:07:22.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.133 seconds
+[2024-03-30T09:07:52.674+0000] {processor.py:161} INFO - Started process (PID=1409) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:52.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:07:52.677+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:52.677+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:52.754+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:07:52.773+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:52.773+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:07:52.784+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:07:52.784+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:07:52.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.129 seconds
+[2024-03-30T09:08:22.999+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:23.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:08:23.003+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:23.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:23.075+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:23.095+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:23.095+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:08:23.108+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:23.107+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:08:23.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.126 seconds
+[2024-03-30T09:08:53.346+0000] {processor.py:161} INFO - Started process (PID=1474) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:53.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:08:53.350+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:53.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:53.431+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:08:53.450+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:53.450+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:08:53.463+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:08:53.462+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:08:53.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.137 seconds
+[2024-03-30T09:09:23.653+0000] {processor.py:161} INFO - Started process (PID=1507) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:23.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:09:23.656+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:23.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:23.732+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:23.756+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:23.755+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:09:23.769+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:23.769+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:09:23.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.138 seconds
+[2024-03-30T09:09:54.054+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:54.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:09:54.058+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:54.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:54.143+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:09:54.162+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:54.162+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:09:54.173+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:09:54.173+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:09:54.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T09:10:24.397+0000] {processor.py:161} INFO - Started process (PID=1575) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:24.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:10:24.401+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:24.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:24.493+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:24.514+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:24.514+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:10:24.526+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:24.526+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:10:24.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.151 seconds
+[2024-03-30T09:10:54.814+0000] {processor.py:161} INFO - Started process (PID=1607) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:54.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:10:54.818+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:54.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:54.897+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:10:54.915+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:54.915+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:10:54.926+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:10:54.926+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:10:54.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.134 seconds
+[2024-03-30T09:11:25.067+0000] {processor.py:161} INFO - Started process (PID=1640) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:25.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:11:25.071+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:25.070+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:25.176+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:25.199+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:25.199+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:11:25.215+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:25.215+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:11:25.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.172 seconds
+[2024-03-30T09:11:55.336+0000] {processor.py:161} INFO - Started process (PID=1673) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:55.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:11:55.340+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:55.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:55.420+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:11:55.442+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:55.442+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:11:55.454+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:11:55.453+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:11:55.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.142 seconds
+[2024-03-30T09:12:25.555+0000] {processor.py:161} INFO - Started process (PID=1706) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:25.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:12:25.559+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:25.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:25.632+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:25.655+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:25.654+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:12:25.669+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:25.668+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:12:25.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.136 seconds
+[2024-03-30T09:12:55.950+0000] {processor.py:161} INFO - Started process (PID=1739) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:55.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:12:55.955+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:55.954+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:56.079+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:12:56.105+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:56.104+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:12:56.122+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:12:56.121+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:12:56.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.198 seconds
+[2024-03-30T09:13:26.184+0000] {processor.py:161} INFO - Started process (PID=1771) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:26.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:13:26.187+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:26.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:26.273+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:26.294+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:26.293+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:13:26.309+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:26.308+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:13:26.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.145 seconds
+[2024-03-30T09:13:56.762+0000] {processor.py:161} INFO - Started process (PID=1804) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:56.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:13:56.766+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:56.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:56.843+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:13:56.863+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:56.862+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:13:56.874+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:13:56.874+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:13:56.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.133 seconds
+[2024-03-30T09:14:26.952+0000] {processor.py:161} INFO - Started process (PID=1837) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:26.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:14:26.955+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:26.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:27.031+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:27.051+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:27.050+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:14:27.063+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:27.063+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:14:27.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.133 seconds
+[2024-03-30T09:14:57.301+0000] {processor.py:161} INFO - Started process (PID=1869) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:57.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:14:57.304+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:57.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:57.384+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:14:57.404+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:57.404+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:14:57.416+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:14:57.416+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:14:57.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.137 seconds
+[2024-03-30T09:15:27.732+0000] {processor.py:161} INFO - Started process (PID=1903) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:27.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:15:27.736+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:27.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:27.830+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:27.854+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:27.854+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:15:27.872+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:27.872+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:15:27.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.167 seconds
+[2024-03-30T09:15:58.291+0000] {processor.py:161} INFO - Started process (PID=1940) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:58.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:15:58.295+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:58.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:58.388+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:15:58.409+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:58.408+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:15:58.421+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:15:58.421+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:15:58.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.154 seconds
+[2024-03-30T09:16:29.213+0000] {processor.py:161} INFO - Started process (PID=1973) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:29.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:16:29.219+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:29.218+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:29.355+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:29.386+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:29.385+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:16:29.407+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:29.407+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:16:29.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.233 seconds
+[2024-03-30T09:16:59.475+0000] {processor.py:161} INFO - Started process (PID=2004) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:59.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:16:59.479+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:59.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:59.607+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:16:59.637+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:59.636+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:16:59.656+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:16:59.655+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:16:59.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.206 seconds
+[2024-03-30T09:17:29.854+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:17:29.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:17:29.857+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:17:29.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:17:29.954+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:17:29.976+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:17:29.976+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:17:29.991+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:17:29.990+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:17:30.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.161 seconds
+[2024-03-30T09:18:00.411+0000] {processor.py:161} INFO - Started process (PID=2070) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:00.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:18:00.416+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:00.415+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:00.496+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:00.520+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:00.520+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:18:00.538+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:00.538+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:18:00.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.154 seconds
+[2024-03-30T09:18:30.872+0000] {processor.py:161} INFO - Started process (PID=2102) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:30.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:18:30.875+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:30.875+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:30.969+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:18:30.990+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:30.989+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:18:31.002+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:18:31.002+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:18:31.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.152 seconds
+[2024-03-30T09:19:01.377+0000] {processor.py:161} INFO - Started process (PID=2135) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:01.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:19:01.381+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:01.380+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:01.457+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:01.479+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:01.479+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:19:01.492+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:01.491+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:19:01.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.137 seconds
+[2024-03-30T09:19:31.794+0000] {processor.py:161} INFO - Started process (PID=2168) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:31.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:19:31.798+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:31.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:31.888+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:19:31.909+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:31.908+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:19:31.921+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:19:31.921+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:19:31.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.147 seconds
+[2024-03-30T09:20:02.378+0000] {processor.py:161} INFO - Started process (PID=2202) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:02.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:20:02.383+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:02.382+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:02.497+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:02.521+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:02.521+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:20:02.534+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:02.534+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:20:02.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.181 seconds
+[2024-03-30T09:20:32.863+0000] {processor.py:161} INFO - Started process (PID=2235) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:32.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:20:32.867+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:32.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:32.955+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:20:32.980+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:32.980+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:20:32.997+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:20:32.997+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:20:33.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.156 seconds
+[2024-03-30T09:21:03.179+0000] {processor.py:161} INFO - Started process (PID=2268) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:03.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:21:03.184+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:03.183+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:03.281+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:03.308+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:03.308+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:21:03.321+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:03.321+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:21:03.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.166 seconds
+[2024-03-30T09:21:33.554+0000] {processor.py:161} INFO - Started process (PID=2301) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:33.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:21:33.558+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:33.558+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:33.655+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:21:33.676+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:33.675+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:21:33.688+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:21:33.688+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:21:33.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.155 seconds
+[2024-03-30T09:22:04.177+0000] {processor.py:161} INFO - Started process (PID=2334) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:04.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:22:04.180+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:04.180+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:04.268+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:04.289+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:04.289+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:22:04.302+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:04.301+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:22:04.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.146 seconds
+[2024-03-30T09:22:34.640+0000] {processor.py:161} INFO - Started process (PID=2367) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:34.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:22:34.643+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:34.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:34.726+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:22:34.750+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:34.749+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:22:34.763+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:22:34.763+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:22:34.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.148 seconds
+[2024-03-30T09:23:05.239+0000] {processor.py:161} INFO - Started process (PID=2400) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:05.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:23:05.242+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:05.241+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:05.333+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:05.352+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:05.352+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:23:05.365+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:05.365+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:23:05.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.150 seconds
+[2024-03-30T09:23:35.529+0000] {processor.py:161} INFO - Started process (PID=2433) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:35.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:23:35.532+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:35.532+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:35.618+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:23:35.639+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:35.638+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:23:35.651+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:23:35.651+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:23:35.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.144 seconds
+[2024-03-30T09:24:06.249+0000] {processor.py:161} INFO - Started process (PID=2466) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:06.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:24:06.251+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:06.251+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:06.342+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:06.368+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:06.368+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:24:06.380+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:06.380+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:24:06.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.152 seconds
+[2024-03-30T09:24:36.903+0000] {processor.py:161} INFO - Started process (PID=2499) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:36.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:24:36.906+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:36.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:37.008+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:24:37.036+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:37.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:24:37.049+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:24:37.049+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:24:37.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.169 seconds
+[2024-03-30T09:25:07.930+0000] {processor.py:161} INFO - Started process (PID=2532) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:07.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:25:07.932+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:07.932+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:08.023+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:08.046+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:08.046+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:25:08.058+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:08.058+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:25:08.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.155 seconds
+[2024-03-30T09:25:38.475+0000] {processor.py:161} INFO - Started process (PID=2565) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:38.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:25:38.478+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:38.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:38.560+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:25:38.582+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:38.582+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:25:38.594+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:25:38.594+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:25:38.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.141 seconds
+[2024-03-30T09:26:08.994+0000] {processor.py:161} INFO - Started process (PID=2597) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:08.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:26:08.997+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:08.997+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:09.081+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:09.102+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:09.102+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:26:09.114+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:09.114+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:26:09.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.142 seconds
+[2024-03-30T09:26:39.336+0000] {processor.py:161} INFO - Started process (PID=2630) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:39.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:26:39.341+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:39.340+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:39.427+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:26:39.448+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:39.448+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:26:39.461+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:26:39.461+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:26:39.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.144 seconds
+[2024-03-30T09:27:10.376+0000] {processor.py:161} INFO - Started process (PID=2663) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:10.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:27:10.379+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:10.379+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:10.470+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:10.493+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:10.493+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:27:10.506+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:10.505+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:27:10.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.156 seconds
+[2024-03-30T09:27:41.250+0000] {processor.py:161} INFO - Started process (PID=2695) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:41.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:27:41.254+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:41.253+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:41.342+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:27:41.362+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:41.362+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:27:41.374+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:27:41.374+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:27:41.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.150 seconds
+[2024-03-30T09:28:11.596+0000] {processor.py:161} INFO - Started process (PID=2728) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:11.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:28:11.601+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:11.600+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:11.687+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:11.719+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:11.719+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:28:11.740+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:11.740+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:28:11.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.172 seconds
+[2024-03-30T09:28:42.684+0000] {processor.py:161} INFO - Started process (PID=2764) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:42.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:28:42.687+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:42.686+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:42.778+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:28:42.799+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:42.799+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:28:42.811+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:28:42.811+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:28:42.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.150 seconds
+[2024-03-30T09:29:13.089+0000] {processor.py:161} INFO - Started process (PID=2797) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:13.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:29:13.093+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:13.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:13.179+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:13.201+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:13.200+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:29:13.212+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:13.212+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:29:13.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.148 seconds
+[2024-03-30T09:29:43.788+0000] {processor.py:161} INFO - Started process (PID=2830) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:43.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:29:43.792+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:43.792+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:43.893+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:29:44.071+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:44.071+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:29:44.085+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:29:44.084+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:29:44.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.322 seconds
+[2024-03-30T09:30:14.389+0000] {processor.py:161} INFO - Started process (PID=2863) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:14.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:30:14.392+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:14.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:14.468+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:14.488+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:14.487+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:30:14.499+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:14.499+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:30:14.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.130 seconds
+[2024-03-30T09:30:45.247+0000] {processor.py:161} INFO - Started process (PID=2896) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:45.248+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:30:45.251+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:45.250+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:45.333+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:30:45.355+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:45.355+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:30:45.506+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:30:45.506+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:30:45.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.281 seconds
+[2024-03-30T09:31:16.340+0000] {processor.py:161} INFO - Started process (PID=2929) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:16.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:31:16.344+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:16.343+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:16.547+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:16.563+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:16.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:31:16.573+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:16.573+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:31:16.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.251 seconds
+[2024-03-30T09:31:47.093+0000] {processor.py:161} INFO - Started process (PID=2962) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:47.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:31:47.096+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:47.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:47.176+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:31:47.200+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:47.200+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:31:47.359+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:31:47.359+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:31:47.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.289 seconds
+[2024-03-30T09:32:17.977+0000] {processor.py:161} INFO - Started process (PID=2994) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:17.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:32:17.980+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:17.980+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:18.258+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:18.280+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:18.279+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:32:18.291+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:18.291+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:32:18.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.335 seconds
+[2024-03-30T09:32:49.061+0000] {processor.py:161} INFO - Started process (PID=3032) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:49.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:32:49.064+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:49.064+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:49.278+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:32:49.297+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:49.295+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:32:49.308+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:32:49.308+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:32:49.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.267 seconds
+[2024-03-30T09:33:19.752+0000] {processor.py:161} INFO - Started process (PID=3065) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:19.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:33:19.757+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:19.757+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:20.026+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:20.048+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:20.047+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:33:20.065+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:20.064+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:33:20.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.339 seconds
+[2024-03-30T09:33:51.190+0000] {processor.py:161} INFO - Started process (PID=3098) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:51.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:33:51.194+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:51.194+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:51.481+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:33:51.508+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:51.508+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:33:51.526+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:33:51.526+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:33:51.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.366 seconds
+[2024-03-30T09:34:21.822+0000] {processor.py:161} INFO - Started process (PID=3131) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:21.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:34:21.828+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:21.828+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:22.053+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:22.072+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:22.072+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:34:22.083+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:22.083+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:34:22.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.284 seconds
+[2024-03-30T09:34:52.276+0000] {processor.py:161} INFO - Started process (PID=3164) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:52.277+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:34:52.279+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:52.279+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:52.503+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:34:52.523+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:52.522+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:34:52.535+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:34:52.535+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:34:52.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.278 seconds
+[2024-03-30T09:35:22.770+0000] {processor.py:161} INFO - Started process (PID=3197) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:22.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:35:22.773+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:22.772+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:23.022+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:23.040+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:23.040+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:35:23.052+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:23.052+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:35:23.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.305 seconds
+[2024-03-30T09:35:53.651+0000] {processor.py:161} INFO - Started process (PID=3230) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:53.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:35:53.656+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:53.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:53.739+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:35:53.760+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:53.759+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:35:53.773+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:35:53.773+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:35:53.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.146 seconds
+[2024-03-30T09:36:24.614+0000] {processor.py:161} INFO - Started process (PID=3263) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:24.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:36:24.619+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:24.619+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:24.715+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:24.738+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:24.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:36:24.750+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:24.750+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:36:24.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.162 seconds
+[2024-03-30T09:36:55.271+0000] {processor.py:161} INFO - Started process (PID=3296) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:55.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:36:55.274+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:55.274+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:55.357+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:36:55.385+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:55.385+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:36:55.402+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:36:55.402+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:36:55.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.157 seconds
+[2024-03-30T09:37:25.659+0000] {processor.py:161} INFO - Started process (PID=3329) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:25.660+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:37:25.663+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:25.662+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:25.751+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:25.772+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:25.771+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:37:25.783+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:25.783+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:37:25.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.143 seconds
+[2024-03-30T09:37:56.285+0000] {processor.py:161} INFO - Started process (PID=3362) to work on /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:56.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py for tasks to queue
+[2024-03-30T09:37:56.289+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:56.288+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:56.371+0000] {processor.py:840} INFO - DAG(s) 'example_enam' retrieved from /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py
+[2024-03-30T09:37:56.390+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:56.389+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-30T09:37:56.401+0000] {logging_mixin.py:188} INFO - [2024-03-30T09:37:56.401+0000] {dag.py:3834} INFO - Setting next_dagrun for example_enam to None, run_after=None
+[2024-03-30T09:37:56.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/other_ingestion_postgre/main_dag_sql_enam.py took 0.135 seconds
