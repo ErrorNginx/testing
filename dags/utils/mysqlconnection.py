@@ -5,7 +5,7 @@ def get_mysql_connection():
     Function to create a connection to MySQL using SQLAlchemy
     """
     # Update with your MySQL connection details
-    host = '34.121.216.15'
+    host = ''
     port = '3306'
     database = 'databasename'
     username = 'root'
