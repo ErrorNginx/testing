@@ -1,3 +1,0 @@
-[2024-03-16T05:49:18.665+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_hourly_pintro_aplikasi.fetch_data_task scheduled__2024-03-15T12:00:00+00:00 [queued]>
-[2024-03-16T05:49:18.795+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_hourly_pintro_aplikasi.fetch_data_task scheduled__2024-03-15T12:00:00+00:00 [queued]>
-[2024-03-16T05:49:21.206+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
